@@ -17,7 +17,7 @@ class App extends Component {
   popUp() {
     alert('The Konami Code happened!');
   }
-  
+
   render() {
     return (
       <div>Hello this is Konami!</div>
