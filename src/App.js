@@ -29,7 +29,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <button onClick={this.toggleActivation}> Toggle Konami Code</button>
-        {this.state.activated ? <Konami /> : <div>Konami Code: Deactivated</div>}
+        {this.state.activated ? <Konami name="Sharmarke"/> : <div>Konami Code: Deactivated</div>}
       </div>
     );
   }

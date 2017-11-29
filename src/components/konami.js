@@ -20,7 +20,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>Hello this is Konami!</div>
+      <div>
+        <input
+        <div>Hello, {this.props.name}, this is Konami!</div>
     );
   }
 }
